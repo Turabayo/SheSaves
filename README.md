@@ -19,5 +19,5 @@ SheSaves is a mobile-first app helping women in informal economies track small s
 
 #  Designs & Media
 
-  **Prototype in Figma**: [View Design](https://www.figma.com/design/n6EvDJ2L01yGxoGDziKWeU/SheSaves?node-id=0-1&t=znaneEMsrEStqWMn-1)
-  **Video Demo**: [Watch on Google Drive](https://drive.google.com/drive/folders/1dgSdX9dzE9nuor5y4m4ykxwaCnhxH0iG?usp=sharing)
+  Prototype in Figma : [View Design](https://www.figma.com/design/n6EvDJ2L01yGxoGDziKWeU/SheSaves?node-id=0-1&t=znaneEMsrEStqWMn-1)
+  Video Demo : https://youtu.be/GZ5hABj2KKA
