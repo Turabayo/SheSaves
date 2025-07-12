@@ -1,6 +1,7 @@
 
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
+import FloatingAIButton from "@/components/FloatingAIButton";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/contexts/AuthContext";
@@ -16,6 +17,14 @@ const Investments = () => {
       navigate('/auth');
     }
   }, [user, authLoading, navigate]);
+
+  // Auto-enable AI assistant by default
+  useEffect(() => {
+    const aiSetting = localStorage.getItem("aiAssistant");
+    if (aiSetting === null) {
+      localStorage.setItem("aiAssistant", "true");
+    }
+  }, []);
 
   if (authLoading || investmentsLoading) {
     return (
@@ -67,11 +76,11 @@ const Investments = () => {
                   </div>
                   <div className="text-right">
                     <span className="text-gray-900 font-semibold">
-                      ${investment.amount.toLocaleString()}
+                      {investment.amount.toLocaleString()} RWF
                     </span>
                     {investment.target_amount && (
                       <div className="text-sm text-gray-500">
-                        Goal: ${investment.target_amount.toLocaleString()}
+                        Goal: {investment.target_amount.toLocaleString()} RWF
                       </div>
                     )}
                   </div>
@@ -92,6 +101,8 @@ const Investments = () => {
           )}
         </div>
       </main>
+
+      <FloatingAIButton />
     </div>
   );
 };

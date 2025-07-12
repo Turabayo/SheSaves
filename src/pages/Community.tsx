@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import { Heart, Bookmark } from "lucide-react";
 
