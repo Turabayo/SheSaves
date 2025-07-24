@@ -8,16 +8,16 @@ SheSaves is a mobile-first app helping women in informal economies track small s
    ```bash
    git clone https://github.com/turabayo/shesaves.git
    cd shesaves
-   npm install
+   npm i
 ````
 
 2. Run the app:
 
    ```bash
-   npx expo start
+   npm run dev
    ```
 
 #  Designs & Media
 
   **Prototype in Figma**: [View Design](https://www.figma.com/design/n6EvDJ2L01yGxoGDziKWeU/SheSaves?node-id=0-1&t=znaneEMsrEStqWMn-1)
-  **Video Demo**: [Watch on Google Drive](https://drive.google.com/drive/folders/1dgSdX9dzE9nuor5y4m4ykxwaCnhxH0iG?usp=sharing)
+  **Video Demo**: [Watch on YouTube](https://youtu.be/GZ5hABj2KKA)
